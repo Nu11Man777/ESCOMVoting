@@ -46,8 +46,9 @@ docker compose up -d
 This starts PostgreSQL with:
 - DB: `escomvoting`
 - User: `escom`
-- Password: `escom`
 - Port: `5432`
+
+The database password is not committed. Ask your team lead for the backend `.env` in the server.
 
 ### 2. Configure backend environment
 
